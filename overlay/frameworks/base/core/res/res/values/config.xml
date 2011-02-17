@@ -86,7 +86,7 @@
     
     <!-- Component name of the default wallpaper. This will be ImageWallpaper if not 
          specified -->
-    <string name="default_wallpaper_component">com.android.wallpaper/.nexus.NexusWallpaper</string>
+<!--    <string name="default_wallpaper_component">com.android.wallpaper/.nexus.NexusWallpaper</string> -->
 
     <integer name="config_deskDockKeepsScreenOn">0</integer>
     <integer name="config_carDockKeepsScreenOn">1</integer>
@@ -148,6 +148,6 @@
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>30</item>
+        <item>20</item>
     </integer-array>
 </resources>
