@@ -56,7 +56,7 @@ BOARD_EGL_CFG := device/htc/passion-common/egl.cfg
 BOARD_USE_FROYO_LIBCAMERA := true
 
 # Use RGB565 surfaces until userspace drivers are upgraded
-BOARD_NO_RGBX_8888 := true
+#BOARD_NO_RGBX_8888 := true
 BOARD_USES_QCOM_LIBS := true
 BOARD_USES_QCOM_LIBRPC := true
 BOARD_USES_QCOM_GPS := true
