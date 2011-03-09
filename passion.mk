@@ -48,7 +48,7 @@ PRODUCT_PACKAGES := \
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Passion uses high-density artwork where available
-PRODUCT_LOCALES := hdpi
+PRODUCT_LOCALES := hdpi es_ES ca_ES
 
 PRODUCT_COPY_FILES += \
     device/htc/passion-common/mahimahi-keypad.kl:system/usr/keylayout/mahimahi-keypad.kl \
