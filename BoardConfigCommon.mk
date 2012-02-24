@@ -31,7 +31,7 @@ TARGET_BOOTLOADER_BOARD_NAME := mahimahi
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
-WPA_SUPPLICANT_VERSION      := VER_0_6_X
+WPA_SUPPLICANT_VERSION      := VER_0_8_X
 BOARD_WLAN_DEVICE           := bcm4329
 WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/bcm4329.ko"
 WIFI_DRIVER_FW_STA_PATH     := "/vendor/firmware/fw_bcm4329.bin"
@@ -59,6 +59,8 @@ BOARD_USE_FROYO_LIBCAMERA := true
 # Use RGB565 surfaces until userspace drivers are upgraded
 #BOARD_NO_RGBX_8888 := true
 BOARD_USES_QCOM_LIBS := true
+BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_LEGACY_QCOM := true
 
 BOARD_HAVE_FM_RADIO := true
 BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
