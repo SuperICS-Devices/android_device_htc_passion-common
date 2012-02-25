@@ -143,9 +143,6 @@
     </string-array>
 
 
-    <!-- Boolean indicating if we require the use of DUN on mobile for tethering -->
-    <bool translatable="false" name="config_tether_dun_required">false</bool>
-
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
         <item>20</item>
