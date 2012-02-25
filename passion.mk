@@ -48,9 +48,6 @@ PRODUCT_PACKAGES := \
 # we have enough storage space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-# Passion uses high-density artwork where available
-PRODUCT_LOCALES := hdpi es_ES ca_ES
-
 PRODUCT_COPY_FILES += \
     device/htc/passion-common/mahimahi-keypad.kl:system/usr/keylayout/mahimahi-keypad.kl \
     device/htc/passion-common/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
@@ -74,7 +71,3 @@ $(call inherit-product-if-exists, vendor/htc/passion-common/passion-vendor.mk)
 
 # media profiles and capabilities spec
 $(call inherit-product, device/htc/passion-common/media_a1026.mk)
-
-# stuff common to all HTC phones
-$(call inherit-product, device/htc/common/common.mk)
-
